@@ -6,6 +6,10 @@ Your webcam tracks where your mouth is and how wide it's open. Food gets tossed 
 
 I built it solo at HackNC 2026.
 
+![Two players mid-round: P1 has a magnet pulling food in, P2 is on a chili streak, and P1 is wearing the leader's crown](docs/gameplay.png)
+
+<sub>Rendered without the camera, so the background is empty. In the real game your webcam feed is behind all of this.</sub>
+
 ## How to play
 
 Move your head to aim. Open your mouth to chomp.
@@ -34,6 +38,8 @@ Jaw-opening exercises are a normal part of recovery for things like TMJ problems
 Jaw Workout turns each rep into something to aim at. A snack shows up on screen, you line your mouth up with it, open past your target, and hold until the ring fills. The target adjusts to your own range as you go. After 10 reps you see how wide you opened on average, how that compares to last time, a chart of your recent sessions, and your daily streak.
 
 To be clear, I'm not a clinician and this isn't a medical device. The "opening %" is the face model's own estimate, not a measurement in millimeters. It's a prototype of what at-home practice could feel like if it were fun.
+
+![Jaw Workout mid-rep: the ring around the pear fills while you hold your mouth open past the target line](docs/workout.png)
 
 ## Running it
 
