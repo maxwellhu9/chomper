@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chomp Cam</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <video id="cam" playsinline muted></video>
+    <canvas id="screen"></canvas>
+
+    <div id="title" class="panel">
+      <h1>CHOMP<span>CAM</span></h1>
+      <p class="tag">eat with your actual face</p>
+      <ul class="how">
+        <li><b>Move your head</b> to aim your mouth</li>
+        <li><b>Open wide</b> to chomp food 🍕🍩🍣</li>
+        <li><b>Don't eat bombs</b> 💣 &nbsp;·&nbsp; ⭐ = slow-mo bonus</li>
+      </ul>
+      <p id="status" class="cta">warming up face tracker…</p>
+      <div id="board"></div>
+    </div>
+
+    <div id="countdown" class="big hidden"></div>
+
+    <div id="over" class="panel hidden">
+      <h2 id="overTitle">TIME!</h2>
+      <p id="final"></p>
+      <div class="photo-wrap">
+        <canvas id="photo" width="256" height="256"></canvas>
+        <p class="caption">your biggest chomp</p>
+      </div>
+      <form id="save">
+        <input id="name" maxlength="10" placeholder="your name" autocomplete="off" />
+        <button>save score</button>
+      </form>
+      <p class="hint">Enter to save · Esc to skip</p>
+    </div>
+
+    <button id="mute" title="mute (M)">🔊</button>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
