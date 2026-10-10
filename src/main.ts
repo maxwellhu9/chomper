@@ -158,8 +158,8 @@ interface Entry {
   photo?: string;
   t?: number;
 }
-const SCORES = "chompcam-scores";
-const WORKOUTS = "chompcam-workouts";
+const SCORES = "chomper-scores";
+const WORKOUTS = "chomper-workouts";
 function load<T>(key: string): T[] {
   try {
     return JSON.parse(localStorage.getItem(key) || "[]");

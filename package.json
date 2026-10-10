@@ -1,5 +1,5 @@
 {
-  "name": "face-arcade",
+  "name": "chomper",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -14,5 +14,8 @@
   },
   "dependencies": {
     "@mediapipe/tasks-vision": "^1.1.0"
-  }
+  },
+  "description": "A browser game you play with your mouth. Webcam face tracking, 1-4 players, plus a jaw exercise mode.",
+  "license": "MIT",
+  "author": "Maxwell Hu"
 }
